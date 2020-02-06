@@ -26,3 +26,9 @@ h2 {
 #top-heading {
     color: violet;
 }
+
+/* Descendant selector */
+
+ul p {
+    
+}
