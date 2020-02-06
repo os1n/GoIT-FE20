@@ -1,0 +1,28 @@
+/* Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tag Selector*/
+h2 {
+    color:red;
+    font-size: 24px;
+    font-weight:bold;
+    font-style: italic;
+}
+
+/* Class Selector*/
+.heading {
+    color: blue;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* ID selector */
+
+#top-heading {
+    color: violet;
+}
