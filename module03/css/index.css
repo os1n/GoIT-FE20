@@ -1,17 +1,26 @@
+/* connecting the Google Playfair fonts*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+</style> 
+
 /* Universal Selector*/
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    /*font-family: 'Playfair Display', serif; /*adding the font to all text */
+    font-family: 'Times New Roman', Times, serif; /*adding the font to all text */
 }
 
-/* Tag Selector*/
+/* Tag Selector
 h2 {
     color:red;
     font-size: 24px;
     font-weight:bold;
     font-style: italic;
-}
+    text-align: center;
+    text-align: right;
+}*/
 
 /* Class Selector*/
 .heading {
@@ -19,7 +28,61 @@ h2 {
     font-size: 40px;
     font-weight: 500;
     font-style: italic;
+    text-align: center;
+    /*font-family: cursive;*/
 }
+
+.header-menu {
+    width: 960px;
+    height: auto;
+    padding: 25px;
+    border: 0px;
+    margin: 0px;
+    background-color: lightgoldenrodyellow;
+    font-family: cursive; /* Playing with fonts*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    width: 420px;
+    height: auto;
+    padding: 25px;
+    border: 0px;
+    margin: auto;
+    box-shadow: -10px 5px 3px gray;
+}
+ 
+.content-box {
+    display: inline-block;
+  }
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px;
+  border: none;
+  background-color: gray;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+ .horizontal-alignment {
+  padding: 25px;
+  background-color: lightgray;
+  text-align: center;
+} 
+
+.vertical-alignment div {
+    display: inline-block;
+    width: 100px;
+    background-color: coral;
+  }
 
 /* ID selector */
 
