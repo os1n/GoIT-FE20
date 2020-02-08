@@ -16,14 +16,23 @@
   
 </head>
 <body>
+    <h1 class="heading">Hello CSS - goit module_03</h1>
     
     <div class="header-menu">
-        <a href="#">LIFESTYLE</a>
-        <a href = '#'>PHOTODIARY</a>
-        <a href = '#'>MUSIC</a>
-        <a href = '#'>TRAVEL</a>
+        <button onclick="window.location.href = '#';">Home</button>
+        <button onclick="window.location.href = '#';">About us</button>
+        <button onclick="window.location.href = '#';">Gallery</button>
+        <button onclick="window.location.href = '#';">Articales</button>
+        <button onclick="window.location.href = '#';">Contacts</button>
     </div>
         
+    <div class="block margin-bottom">
+        <img src="./img/image_1.png" alt="Картинка из концерта" title="Руки вверх!" width="420" height="280">
+        <p>Lifestyle</p>
+        <h2> More than just a music festival </h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quod cumque deserunt nostrum aut. Similique facilis officiis illum porro, quam rem optio quidem repellendus? Numquam pariatur porro architecto voluptatum minima.</p>
+    </div>
+
     <div class="block2 margin-bottom">
         
         <div>
@@ -38,28 +47,19 @@
             <p>Photodiary</p>
             <h2>American dream </h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo dolor nesciunt quos officia iure itaque exercitationem accusantium delectus distinctio pariatur eos provident fugit minima laborum, perferendis esse eius, porro totam!</p>
-        </div>
 
-        <div>
-            <img src="./img/image_3.png" alt="Two guyes and a bridge picture" title="Two guyes and a bridge" width="420" height="280">
-            <p>Photodiary</p>
-            <h2>American dream </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo dolor nesciunt quos officia iure itaque exercitationem accusantium delectus distinctio pariatur eos provident fugit minima laborum, perferendis esse eius, porro totam!</p>
-        </div>
-    
-        <div>
-            <img src="./img/image_4.png" alt="A man in the mopuntaines picture" title="A man in the mopuntaines" width="420" height="280">
-            <p>Photodiary</p>
-            <h2>A day exploring the Alps </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo dolor nesciunt quos officia iure itaque exercitationem accusantium delectus distinctio pariatur eos provident fugit minima laborum, perferendis esse eius, porro totam!</p>
         </div>
 
     </div>
 
-    <div class="header-menu outlined">
-        <a href="#">LOAD MORE</a>
+    <div class="header-menu">
+        <button onclick="window.location.href = './index2.html';">Additional tasks Module_03</button>
     </div>
     
+    <h2>Определение веса селекторов</h2>
+    <p>#myid:focus - имеет вес - 0,1,1,0</p>
+    <p>.menu > li > a:hover - имеет вес - 0,0,2,2</p>
+    <p>#myid > ul > li a:hover - имеет вес - 0,1,1,3</p>
     
 </body>
 

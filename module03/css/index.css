@@ -12,9 +12,10 @@
 
 body {
     font-family: 'Playfair Display', serif;
+    color: rgb(98, 98, 98)
   }
   
-
+    
 /* Tag Selector
 h2 {
     color:red;
@@ -35,17 +36,33 @@ h2 {
     /*font-family: cursive;*/
 }
 
+a {
+    text-decoration: none;
+}
+
 .header-menu {
     width: 960px;
+    text-decoration: none;
     height: auto;
     padding: 25px;
     border: 0px;
     margin: auto;
-    background-color: rgba(0, 0, 255, .1);
-    font-family: cursive; /* Playing with fonts*/
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
 }
+
+a:hover {
+    color: rgb(3, 169, 244);
+  }
+ 
+ 
+.outlined {
+    width: 100px;
+    height: 30px;
+    outline: solid;
+}
+  
 
 .block {
     width: 420px;
@@ -53,7 +70,6 @@ h2 {
     padding: 25px;
     border: 0px;
     margin: auto;
-    box-shadow: 12px 12px 2px 3px rgba(0, 0, 255, .1);
 }
 
 .block2 {
@@ -62,7 +78,6 @@ h2 {
     padding: 25px;
     border: 0px;
     margin: auto;
-    box-shadow: 12px 12px 2px 3px rgba(0, 0, 255, .1);
 }
 
 .block2 div {
