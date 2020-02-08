@@ -8,9 +8,12 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    /*font-family: 'Playfair Display', serif; /*adding the font to all text */
-    font-family: 'Times New Roman', Times, serif; /*adding the font to all text */
 }
+
+body {
+    font-family: 'Playfair Display', serif;
+  }
+  
 
 /* Tag Selector
 h2 {
@@ -37,8 +40,8 @@ h2 {
     height: auto;
     padding: 25px;
     border: 0px;
-    margin: 0px;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+    background-color: rgba(0, 0, 255, .1);
     font-family: cursive; /* Playing with fonts*/
     display: flex;
     justify-content: space-evenly;
@@ -50,10 +53,33 @@ h2 {
     padding: 25px;
     border: 0px;
     margin: auto;
-    box-shadow: -10px 5px 3px gray;
+    box-shadow: 12px 12px 2px 3px rgba(0, 0, 255, .1);
 }
- 
+
+.block2 {
+    width: 960px;
+    height: auto;
+    padding: 25px;
+    border: 0px;
+    margin: auto;
+    box-shadow: 12px 12px 2px 3px rgba(0, 0, 255, .1);
+}
+
+.block2 div {
+    display: inline-block;
+    width: 420px;
+    padding: 25px;
+    background-color: white;
+  }
+
+  /*
+.block2 > div {
+    vertical-align: middle;
+    padding: 25pix;
+  }*/
+
 .content-box {
+    box-sizing: content-box;
     display: inline-block;
   }
 
