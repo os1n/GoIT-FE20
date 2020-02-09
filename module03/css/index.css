@@ -55,8 +55,8 @@ a {
 a:hover {
     color: rgb(3, 169, 244);
   }
- 
- 
+
+  
 .outlined {
     width: 100px;
     height: 30px;
@@ -87,11 +87,6 @@ a:hover {
     background-color: white;
   }
 
-  /*
-.block2 > div {
-    vertical-align: middle;
-    padding: 25pix;
-  }*/
 
 .content-box {
     box-sizing: content-box;
@@ -129,10 +124,4 @@ button:hover {
 
 #top-heading {
     color: violet;
-}
-
-/* Descendant selector */
-
-ul p {
-    
 }
