@@ -1,3 +1,8 @@
+/* connecting the Google Playfair fonts*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+</style> 
+
 /* Universal Selector*/
 * {
     margin: 0;
@@ -55,7 +60,7 @@ a {
     width: 960px;
     text-decoration: none;
     font-size: 14px; 
-    text-transform: uppercase;
+   
     padding: 25px;
     border: 0px;
     margin: auto;
@@ -101,15 +106,9 @@ a:hover {
     background-color: white;
   }
 
-.upcase {
-    text-transform: uppercase;
+  p.c {
+    text-transform: capitalize;
   }
-
-.ubuntu {
-  font-family: 'Ubuntu', light;
-  font-size: 14px;
-  color: #b4ad9e;
-}
 
 .content-box {
     box-sizing: content-box;
