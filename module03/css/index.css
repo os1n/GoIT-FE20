@@ -58,7 +58,7 @@ a {
     text-transform: uppercase;
     padding: 25px;
     border: 0px;
-    margin: auto;
+    margin: auto auto 0px auto;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -91,7 +91,7 @@ a:hover {
     height: auto;
     padding: 30px;
     border: 0px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .block2 div {
