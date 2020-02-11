@@ -16,12 +16,20 @@ h2 {
     color: rgb(98, 98, 98);
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 27px;
     /* font-weight:bold;
     font-style: italic;
     text-align: center;
     text-align: right;  not needed code*/
 }
 
+article {
+  margin-bottom: 24px;
+}
+
+section {
+  display: block;
+}
 /* Class Selector*/
 .heading {
     color: rgb(98, 98, 98);
@@ -34,15 +42,25 @@ h2 {
 
 a {
     text-decoration: none;
-    color: rgb(98, 98, 98)
+    color: rgb(98, 98, 98);
 }
+
+p {
+  font-size: 14px;
+}
+
+img {
+  margin-top: 0px;
+  margin-bottom: 27px;
+}
+
 
 .header-name {
   width: 960px;
   text-decoration: none;
   font-size: 14px; 
   color: rgb(98, 98, 98);
-  padding: 25px;
+  padding: 0px;
   border: 0px;
   margin: auto;
   background-color: white;
@@ -56,13 +74,24 @@ a {
     text-decoration: none;
     font-size: 14px; 
     text-transform: uppercase;
-    padding: 25px;
+    text-align: center;
+    padding: 0px;
     border: 0px;
-    margin: auto auto 0px auto;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
     background-color: white;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     vertical-align: middle;
+}
+
+.menu-item {
+  margin-right: 90px;
+  display: inline-block;
+  line-height: 24px;
+  text-transform: uppercase;
+  list-style: none;
 }
 
 a:hover {
@@ -78,28 +107,42 @@ a:hover {
 }
   
 
-.block {
+/* .block {
     width: 420px;
     height: auto;
     padding: 25px;
     border: 0px;
     margin: auto;
-}
+} */
+
+/* Main Content */
 
 .block2 {
+    /* margin-top: 0px; */
     width: 960px;
-    height: auto;
-    padding: 30px;
+    /* height: auto; */
+    padding: 0px;
     border: 0px;
-    margin: 20px auto;
+    margin: auto;
+    font-size: 0px;
 }
 
 .block2 div {
     display: inline-block;
     width: 420px;
-    padding: 25px;
+    padding: 0px;
     background-color: white;
+    margin-right: 58px;
+    margin-bottom: 125px;
   }
+
+.block2_art:nth-child(2n) {
+    margin-right: 0;
+}
+
+.block2_art:nth-last-child(-n+3) {
+  margin-bottom: 78px;
+}
 
 .upcase {
     text-transform: uppercase;
@@ -115,10 +158,6 @@ a:hover {
     box-sizing: content-box;
     display: inline-block;
   }
-
-.margin-bottom {
-    margin-bottom: 20px;
-}
 
 .bottom-menu {
   /* display: inline-block; */
