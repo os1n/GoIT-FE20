@@ -23,7 +23,7 @@ h2 {
     text-align: right;  not needed code*/
 }
 
-article {
+p {
   margin-bottom: 24px;
 }
 
@@ -56,7 +56,7 @@ img {
 
 
 .header-name {
-  width: 960px;
+  width: 900px;
   text-decoration: none;
   font-size: 14px; 
   color: rgb(98, 98, 98);
@@ -70,7 +70,7 @@ img {
 }
 
 .header-menu {
-    width: 960px;
+    width: 900px;
     text-decoration: none;
     font-size: 14px; 
     text-transform: uppercase;
@@ -119,7 +119,7 @@ a:hover {
 
 .block2 {
     /* margin-top: 0px; */
-    width: 960px;
+    width: 900px;
     /* height: auto; */
     padding: 0px;
     border: 0px;
@@ -127,13 +127,13 @@ a:hover {
     font-size: 0px;
 }
 
-.block2 div {
+.block2_art {
     display: inline-block;
     width: 420px;
     padding: 0px;
     background-color: white;
-    margin-right: 58px;
-    margin-bottom: 125px;
+    margin-right: 60px;
+    margin-bottom: 112px;
   }
 
 .block2_art:nth-child(2n) {
@@ -141,17 +141,20 @@ a:hover {
 }
 
 .block2_art:nth-last-child(-n+3) {
-  margin-bottom: 78px;
+  margin-bottom: 33px;
 }
 
-.upcase {
+.upcase { 
     text-transform: uppercase;
   }
 
 .ubuntu {
   font-family: 'Ubuntu', light;
+  font-weight: 300;
   font-size: 14px;
   color: #b4ad9e;
+  font-weight: strong;
+  margin-bottom: 18px;
 }
 
 .content-box {
@@ -171,9 +174,16 @@ a:hover {
   float: none; 
   font-size: 20px;
   text-align: center;
-  border: solid;
+  border: solid 1px;
   font-family: 'Playfair Display', serif;
 }
+/* 
+.bottom-menu:hover {
+  color: rgb(3, 169, 244);
+  flood-color: rgb(3, 169, 244);
+  cursor: pointer;
+  touch-action: auto;
+} */
 
 .button {
   display: inline-block;
