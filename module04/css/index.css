@@ -1,8 +1,3 @@
-/* connecting the Google Playfair fonts*/
-<style>
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-</style> 
-
 /* Universal Selector*/
 * {
     margin: 0;
@@ -10,156 +5,114 @@
     box-sizing: content-box;
 }
 
-body {
-    font-family: 'Playfair Display';
-    color: rgb(98, 98, 98)
-  }
-  
-    
-/* Tag Selector  */
-h2 {
-    color: rgb(98, 98, 98);
-    font-size: 30px;
+  body {
+    font-family: Roboto;
+    color: black;
     font-weight: 400;
-    /* font-weight:bold;
-    font-style: italic;
-    text-align: center;
-    text-align: right;  not needed code*/
-}
+  }
 
-/* Class Selector*/
-.heading {
-    color: rgb(98, 98, 98);
-    font-size: 14px;
-    font-weight: 500;
-    font-style: italic;
-    text-align: center;
-    /*font-family: cursive;*/
-}
-
-a {
-    text-decoration: none;
-    color: rgb(98, 98, 98)
-}
-
-.header-name {
-  width: 960px;
-  text-decoration: none;
-  font-size: 14px; 
-  color: rgb(98, 98, 98);
-  padding: 25px;
-  border: 0px;
-  margin: auto;
-  background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  vertical-align: middle;
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .header-menu {
-    width: 960px;
-    text-decoration: none;
-    font-size: 14px; 
-   
-    padding: 25px;
-    border: 0px;
-    margin: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
+  font-size: 0px;
+  width: 1110px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 112px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  height: auto; overflow: hidden;
 }
 
-a:hover {
-    color: rgb(3, 169, 244);
-  }
-
-  
-.outlined {
-    width: 160px;
-    height: 60px;
-    padding: 0px;
-    outline: solid;
-}
-  
-
-.block {
-    width: 420px;
-    height: auto;
-    padding: 25px;
-    border: 0px;
-    margin: auto;
-}
-
-.block2 {
-    width: 960px;
-    height: auto;
-    padding: 30px;
-    border: 0px;
-    margin: auto;
-}
-
-.block2 div {
-    display: inline-block;
-    width: 420px;
-    padding: 25px;
-    background-color: white;
-  }
-
-  p.c {
-    text-transform: capitalize;
-  }
-
-.content-box {
-    box-sizing: content-box;
-    display: inline-block;
-  }
-
-.margin-bottom {
-    margin-bottom: 20px;
-}
-
-.bottom-menu {
+.header-menu__container__logo {
   /* display: inline-block; */
-  padding: 18px;
-  width: 160px;
-  /*height: 60px;*/
-  color: rgb(98, 98, 98);
-  vertical-align: middle;
-  margin: 0 auto;
-  margin-bottom: 72px;
-  float: none; 
-  font-size: 20px;
-  text-align: center;
-  border: solid;
-  font-family: 'Playfair Display', serif;
-}
-
-.button {
   display: inline-block;
-  padding: 15px;
-  border: none;
-  background-color: gray;
-}
-
-.button:hover {
-  background-color: lightgray;
-}
-
- .horizontal-alignment {
-  padding: 25px;
-  background-color: lightgray;
-  text-align: center;
-} 
-
-.vertical-alignment div {
-    display: inline-block;
-    width: 100px;
-    background-color: coral;
+  width: auto;
+  height: autn;
+  
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.2;
+  font-family: "Roboto", sams-serif;
+  color: #555252;
+  text-transform: uppercase;
+  position: absolute;
   }
 
-/* ID selector */
+.header-menu__container__logo::first-letter {
+  color: rgb(26, 188, 156);
+  }
 
-#top-heading {
-    color: violet;
+.header-menu__links {
+  float: right;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
+.header-menu__links li{
+  padding: 9px;
+  width: auto;
+  height: 30px;
+  /* горизонтальное выравнивание текста  */
+  text-align: center;
+  float: left;
+  }
+
+.header-menu__links a{
+  font-family: "Open Sans";
+  color: #000000;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: none;
+  }
+
+
+.header-menu__links li:not(:last-child){
+  margin-right: 43px;
+}
+
+.header-menu__links a:hover {
+  color: rgb(26, 188, 156);
+}
+
+
+.title {
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+}
+
+.title__name {
+    font-size: 48px;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    &:after {
+        content: '';
+        background-color: rgb(26, 188, 156);
+        position: absolute;
+        left: 50%;
+        top: 230px;
+        width: 164px;
+        height: 7px;
+        z-index: 109;
+        margin-bottom: 93px;
+    }
+  }
+
+  .content-container {
+    width: 1110px;
+    margin: auto;
+  }
