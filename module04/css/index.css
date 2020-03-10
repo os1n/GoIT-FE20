@@ -24,7 +24,7 @@
   width: 1110px;
   height: 40px;
   margin: auto;
-  margin-left: 30px;
+  padding-left: 30px;
   margin-bottom: 112px;
   margin-top: 30px;
   background-color: #ffffff;
@@ -120,6 +120,7 @@
     width: 1110px;
     height: auto;
     display: block;
+    margin: auto;
   }
   
   .list__type {
@@ -197,6 +198,3 @@
     background-color: #1ABC9C;
   }
   
-  /* .item-price:hover {
-    background-color: #1ABC9C;
-  } */
