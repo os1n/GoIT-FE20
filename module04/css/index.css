@@ -115,6 +115,16 @@
     rgb(26, 188, 156);
   }
 
+  .spacer-dash-small {
+    content: "";
+    margin: 20px 0px 30px 0px;
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: 
+    rgb(26, 188, 156);
+  }
+
   .content-wrapper {
     margin-left: 30px;
     width: 1110px;
@@ -190,6 +200,8 @@
     color: #ffffff;
   }
 
+  /* HOVER FOR two elements start */
+
   .content__item__descr:hover .item-price {
     background-color: #1ABC9C;
   }
@@ -198,3 +210,26 @@
     background-color: #1ABC9C;
   }
   
+  /* HOVER FOR two elements end */
+
+  .news__item {
+    float: left;
+    list-style: none;
+
+    height: 500px;
+    width: 350px; 
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+    /* border: black 4px;
+    border-style: solid; */
+
+    background-color: #ffffff;
+  }
+
+.news__image {display: inline-block;}
+
+
+.news__item:nth-child(3n) {
+  margin-right: 0;
+}
