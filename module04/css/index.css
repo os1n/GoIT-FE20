@@ -159,7 +159,7 @@
     background-color: #323232;
   }
 
-.content__image {display: inline-block;}
+.content__image {display: block;}
 
   .content__item:nth-child(4n) {
     margin-right: 0;
