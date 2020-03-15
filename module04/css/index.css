@@ -159,7 +159,18 @@
     background-color: #323232;
   }
 
-.content__image {display: block;}
+.content__image {
+  display: block;
+  background-color: #e8effc;
+}
+
+.content__image__link {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-color: none;
+  box-sizing: border-box;
+}
 
   .content__item:nth-child(4n) {
     margin-right: 0;
@@ -185,6 +196,8 @@
 .content__text {
   display: inline-block;
   padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
   
 
@@ -196,18 +209,24 @@
     padding: 10px;
     margin: 0px;
     background-color: #8c8c8c;
+    text-decoration: none;
 
     color: #ffffff;
   }
 
-  /* HOVER FOR two elements start */
+  /* ----------- HOVER FOR two elements start -----------*/
 
-  .content__item__descr:hover .item-price {
-    background-color: #1ABC9C;
+  
+  /* .content__item__descr:hover .item-price {
+    background-color: #7fd9c7;
+  } */
+
+  .content__item:hover .item-price {
+    background-color: #7fd9c7;
   }
 
-  .content__item__descr:hover {
-    background-color: #1ABC9C;
+  .content__item:hover .content__item__descr {
+    background-color: rgb(26, 188, 156);
   }
   
   /* HOVER FOR two elements end */
