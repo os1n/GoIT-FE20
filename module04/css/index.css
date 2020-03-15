@@ -35,13 +35,12 @@
   /* display: inline-block; */
   display: inline-block;
   width: auto;
-  height: autn;
-  
+    
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   line-height: 1.2;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02px;
 
   font-family: "Roboto", sams-serif;
   color: #555252;
@@ -100,9 +99,9 @@
 .title__name {
   font-size: 48px;
   color: rgb(81, 81, 81);
-  font-weight:1000;
+  font-weight: 800;
   line-height: 1.2;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02px;
   
   text-align: center;
   
@@ -137,7 +136,7 @@
     font-family: "Open Sans", serif-serif;
     color: rgb(81, 81, 81);
     line-height: 1.2;
-    letter-spacing: -0.02;
+    letter-spacing: -0.02px;
   }
 
   .content__item {
@@ -165,7 +164,6 @@
   display: block;
   margin: 0px;
   padding: 0px;
-  background-color: none;
   box-sizing: border-box;
 }
 
@@ -188,9 +186,9 @@
     /* border: black 3px;
     border-style: solid; */
 
-    font-style: 18px;
+    font-size: 18px;
     font-weight: 800;
-    letter-spacing: -0.02;
+    letter-spacing: -0.02px;
 
     color: #ffffff;
     text-transform: uppercase;
