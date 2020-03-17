@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: content-box;
 }
+/* Universal Selector*/
+
 
   body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: black;
     font-weight: 400;
   }
@@ -45,7 +47,6 @@
   font-family: "Roboto", sams-serif;
   color: #555252;
   text-transform: uppercase;
-  position: absolute;
   }
 
 .header-menu__container__logo::first-letter {
@@ -61,16 +62,11 @@
 }
 
 .header-menu__links li{
-  padding: 9px;
-  width: auto;
-  height: 30px;
-  /* горизонтальное выравнивание текста  */
-  text-align: center;
   float: left;
   }
 
 .header-menu__links a{
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 14px;
@@ -274,7 +270,7 @@
 .h4_news {
   margin-bottom: 8px;
 
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
 
@@ -286,7 +282,7 @@
 .news__text {
   margin-bottom: 12px;
 
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   
@@ -308,7 +304,7 @@
   border: none;
   background-color:  rgb(78, 198, 171);
 
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   
