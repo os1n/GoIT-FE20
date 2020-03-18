@@ -74,7 +74,7 @@
 .header-menu__links a{
   font-family: "Open Sans", bold, sans-serif;
   color: #000000;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -84,7 +84,7 @@
 
 
 .header-menu__links li:not(:last-child){
-  margin-right: 46px;
+  margin-right: 32px;
 }
 
 .header-menu__links a:hover {
@@ -141,6 +141,7 @@
     color: rgb(81, 81, 81);
     line-height: 1.2;
     letter-spacing: -0.02px;
+    margin-bottom: 20px;
   }
 
   .content__item {
