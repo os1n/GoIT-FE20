@@ -13,6 +13,12 @@
     font-weight: 400;
   }
 
+.container {
+    margin: 0 auto;
+    width: 1110px;
+    padding: 0 15px;
+}
+
 .clearfix:after {
   content		: "";
   visibility	: hidden;
@@ -26,38 +32,38 @@
   width: 1110px;
   height: 40px;
   margin: auto;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-bottom: 76px;
   margin-top: 30px;
   background-color: #ffffff;
-  height: auto; overflow: hidden;
+  height: auto; 
 }
 
 .header-menu__container__logo {
   /* display: inline-block; */
   display: inline-block;
   width: auto;
-    
+  
+  font-family: "Roboto", sans-serif;
+  color: #555252;
+  text-transform: uppercase;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 300;
   text-decoration: none;
   line-height: 1.2;
   letter-spacing: -0.02px;
-
-  font-family: "Roboto", sams-serif;
-  color: #555252;
-  text-transform: uppercase;
   }
 
 .header-menu__container__logo::first-letter {
   color: rgb(26, 188, 156);
+  font-weight: 800;
   }
 
 .header-menu__links {
   float: right;
-  width: auto;
+  /* width: auto; 
   margin: 0;
-  padding: 0;
+  padding: 0;  */
   list-style: none;
 }
 
@@ -66,7 +72,7 @@
   }
 
 .header-menu__links a{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", bold, sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 14px;
@@ -100,13 +106,15 @@
   letter-spacing: -0.02px;
   
   text-align: center;
+  font-family: 'Roboto', serif;
   
   padding: 0px 0px 19px 0px;
+  
   }
 
-  .spacer-dash {
+  .title__name::after {
     content: "";
-    margin: 0px auto 0px;
+    margin: 19px auto 0px;
     display: block;
     width: 164px;
     height: 7px;
@@ -120,7 +128,7 @@
     margin-left: 30px;
     width: 1110px;
     height: auto;
-    display: block;
+    /* display: block; */
     margin: auto;
   }
   
@@ -250,19 +258,12 @@
     background-color: #ffffff;
   }
 
+  
   .news__icon {
     margin-bottom: 15px;
   }
-  .spacer-dash-small {
-    content: "";
-    margin: 0px 0px 20px 0px;
-    display: block;
-    width: 136px;
-    height: 3px;
-    background-color: 
-    rgb(26, 188, 156);
-  }
-
+  
+  
 .news__image {
   display: inline-block;
 }
@@ -279,6 +280,16 @@
   line-height: 26px;
 }
 
+.h4_news::after {
+  content: "";
+  margin: 8px 0px 20px 0px;
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: 
+  rgb(26, 188, 156);
+}
+
 .news__text {
   margin-bottom: 12px;
 
@@ -289,8 +300,8 @@
   color: rgb(85, 82, 82);
   letter-spacing: -0.28px;
   line-height: 24px;
-
 }
+
 
 .news__item:nth-child(3n) {
   margin-right: 0;

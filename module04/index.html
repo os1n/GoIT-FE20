@@ -4,213 +4,220 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GoIT FE20 Module04 CSS intro</title>
-    <!-- <link type="text/css" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">  
-    <link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">  
+    
+    <title>GoIT FE20 Module04 Floats</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet"> 
+    
     <link rel="stylesheet" href="./css/index.css">
     
-    <!-- <style>
-        /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:400,500,700,900&display=swap&subset=cyrillic'); */
-    </style>  -->
-
 </head>
 <body>
     <!-- HEADER WRAPPER -->
     <header class="header-menu">
-        <nav class="header-menu__container clearfix">
-            <a href="#" class="header-menu__container__logo">Mart</a>
-            
-            <ul class="header-menu__links clearfix">
-             
-                <li>
-                    <a href="#" class="header-menu__item">Home</a>
-                </li>
-
-                <li>
-                    <a href="#" class="header-menu__item">About us</a>
-                </li>   
+        <div class="container">
+            <nav class="header-menu__container clearfix">
+                <a href="#" class="header-menu__container__logo">Mart</a>
                 
-                <li>
-                    <a href="#" class="header-menu__item">Page</a>
-                </li>
-
-                <li>
-                    <a href="#" class="header-menu__item">Shop</a>
-                </li>
+                <ul class="header-menu__links clearfix">
                 
-                <li>
-                    <a href="#" class="header-menu__item">Blog</a>
-                </li>
-            </ul>
-            
-        </nav>    
+                    <li>
+                        <a href="#" class="header-menu__item">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-menu__item">About us</a>
+                    </li>   
+                    
+                    <li>
+                        <a href="#" class="header-menu__item">Page</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-menu__item">Shop</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="header-menu__item">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-menu__item">Contact us</a>
+                    </li>
+
+                </ul>
+                
+            </nav>    
+        </div>
     </header>
     <!-- HEADER WRAPPER END-->
 
     <main class="content-wrapper clearfix">
-
-        <!-- CATEGORY TITLE START -->    
-        <section class="title">
-            <h1 class="title__name">Feutured Products</h1>
-            <div class="spacer-dash"></div>
-        </section>
-        <!-- CATEGORY TITLE END -->    
-
-        
-        <!-- PRODUCTS LIST START  -->
-
-        <ul class="list__type clearfix"> 
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product1.png" alt="product1" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Blue Tshirt </a>
-                    <span class="item-price">$56</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product2.png" alt="product2" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> WOMAN shirt </a>
-                    <span class="item-price">$31</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product9.png" alt="product9" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Yellow Tshirt </a>
-                    <span class="item-price">$21</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product4.png" alt="product4" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Cool lingerie </a>
-                    <span class="item-price">$21</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product3.png" alt="product3" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Cool lingerie </a>
-                    <span class="item-price">$56</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product5.png" alt="product5" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> WOMAN shirt </a>
-                    <span class="item-price">$31</span>
-                </div>
-            </li>
-
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product6.png" alt="product6" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Yellow Tshirt </a>
-                    <span class="item-price">$21</span>
-                </div>
-            </li>
-
-            
-            <li class="content__item">
-                <div>
-                    <a class="content__image__link" href="#">
-                        <img class="content__image" src="img/product8.png" alt="product8" width="255" height="282">
-                    </a>
-                </div>
-                <div class="content__item__descr">
-                    <a class="content__text" href="#"> Cool lingerie </a>
-                    <span class="item-price">$56</span>
-                </div>
-            </li>
-   
-        </ul>
-
-        <!-- PRODUCTS LIST END   -->
-    
-        <div style="margin-bottom: 40px;"> </div>
-            <!-- CATEGORY NEWS TITLE START -->    
+        <div class="container">  
+            <!-- CATEGORY TITLE START -->    
             <section class="title">
-                <h1 class="title__name">Latest News</h1>
+                <h1 class="title__name">Featured Products</h1>
                 <div class="spacer-dash"></div>
             </section>
-            <!-- CATEGORY TITLE END -->       
+            <!-- CATEGORY TITLE END -->    
 
+            
+            <!-- PRODUCTS LIST START  -->
 
-    <!-- NEWS LIST START  -->
-<ul class="list__type clearfix"> 
+            <ul class="list__type clearfix"> 
 
-            <li class="news__item">
-                <div  class="news__icon">
-                    <img class="news__image" src="img/ipad-632394_960_720.png" alt="news1" width="350" height="262">
-                </div>
-                <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
-                <div class="spacer-dash-small"></div>
-                <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-                <a class="news__link" href="#">Read me</a>
-            </li>
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product1.png" alt="product1" width="255" height="282">
+                        </a>
+                    </div>
 
-            <li class="news__item">
-                <div  class="news__icon">
-                    <img class="content__image" src="img/slide1.png" alt="news2" width="350" height="262">
-                </div>
-                <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
-                <div class="spacer-dash-small"></div>
-                <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-                <a class="news__link" href="#">Read me</a>
-            </li>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Blue Tshirt </a>
+                        <span class="item-price">$56</span>
+                    </div>
+                    
+                </li>
 
-            <li class="news__item">
-                <div  class="news__icon">
-                    <img class="content__image" src="img/product-img-5.png" alt="news3" width="350" height="262">
-                </div>
-                <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
-                <div class="spacer-dash-small"></div>
-                <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product2.png" alt="product2" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> WOMAN shirt </a>
+                        <span class="item-price">$31</span>
+                    </div>
+                </li>
+
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product9.png" alt="product9" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Yellow Tshirt </a>
+                        <span class="item-price">$21</span>
+                    </div>
+                </li>
+
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product4.png" alt="product4" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Cool lingerie </a>
+                        <span class="item-price">$21</span>
+                    </div>
+                </li>
+
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product3.png" alt="product3" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Cool lingerie </a>
+                        <span class="item-price">$56</span>
+                    </div>
+                </li>
+
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product5.png" alt="product5" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> WOMAN shirt </a>
+                        <span class="item-price">$31</span>
+                    </div>
+                </li>
+
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product6.png" alt="product6" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Yellow Tshirt </a>
+                        <span class="item-price">$21</span>
+                    </div>
+                </li>
+
                 
-                <a class="news__link" href="#">Read me</a>
-            </li>
-            
-            
-        </ul>
-    <!-- NEWS  LIST END  -->
+                <li class="content__item">
+                    <div>
+                        <a class="content__image__link" href="#">
+                            <img class="content__image" src="img/product8.png" alt="product8" width="255" height="282">
+                        </a>
+                    </div>
+                    <div class="content__item__descr">
+                        <a class="content__text" href="#"> Cool lingerie </a>
+                        <span class="item-price">$56</span>
+                    </div>
+                </li>
+    
+            </ul>
+
+            <!-- PRODUCTS LIST END   -->
+        
+            <div style="margin-bottom: 40px;"> </div>
+                <!-- CATEGORY NEWS TITLE START -->    
+                <section class="title">
+                    <h1 class="title__name">Latest News</h1>
+                    <div class="spacer-dash"></div>
+                </section>
+                <!-- CATEGORY TITLE END -->       
 
 
+        <!-- NEWS LIST START  -->
+    <ul class="list__type clearfix"> 
+
+                <li class="news__item">
+                    <div  class="news__icon">
+                        <img class="news__image" src="img/ipad-632394_960_720.png" alt="news1" width="350" height="262">
+                    </div>
+                    <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
+                    <div class="spacer-dash-small"></div>
+                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                    <a class="news__link" href="#">Read me</a>
+                </li>
+
+                <li class="news__item">
+                    <div  class="news__icon">
+                        <img class="content__image" src="img/slide1.png" alt="news2" width="350" height="262">
+                    </div>
+                    <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
+                    <div class="spacer-dash-small"></div>
+                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                    <a class="news__link" href="#">Read me</a>
+                </li>
+
+                <li class="news__item">
+                    <div  class="news__icon">
+                        <img class="content__image" src="img/product-img-5.png" alt="news3" width="350" height="262">
+                    </div>
+                    <h4 class="h4_news">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h4>
+                    <div class="spacer-dash-small"></div>
+                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                    
+                    <a class="news__link" href="#">Read me</a>
+                </li>
+                
+                
+            </ul>
+        <!-- NEWS  LIST END  -->
+
+        </div>
     </main>
 
 
