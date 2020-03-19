@@ -209,7 +209,7 @@
   
 
   .item-price {
-    display: inline-block;
+    display: block;
     float: right;
     height: 30px;
     width: 30px;
