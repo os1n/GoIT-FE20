@@ -94,7 +94,8 @@
 .container-content {
   width: 1110px;
   height: auto;
-  /* display: block; */
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
 }
 
