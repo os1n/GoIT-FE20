@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    
 }
 /* Universal Selector*/
 
@@ -15,6 +16,7 @@ body {
   font-family: Roboto, sans-serif;
   color: black;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .clearfix:after {
