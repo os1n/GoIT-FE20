@@ -115,12 +115,24 @@ body {
   display: block;
 }
 
+/* .slider__img__2 {
+  height: auto;
+  width: 100%;
+  display: block;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
 .slider__img::after {
   position: absolute;
   display: block;
   content: "";
-  top: 0;
-  left: 0;
+  top: -100px;
+  left: -100px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 2, 0.52);
@@ -132,8 +144,9 @@ body {
 
 .slider__content {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 50%;
+  top: 50%;
+  translate: transform(-50%,-50%);
   z-index: 75;
 }
   
