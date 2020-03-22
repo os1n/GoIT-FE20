@@ -15,7 +15,7 @@ body {
   font-family: Roboto, sans-serif;
   color: black;
   font-weight: 400;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .clearfix:after {
@@ -26,19 +26,10 @@ body {
   clear		: both;
 }
 
-/* 
-@font-face {
-  font-family: Stroke7;
-  src:local("../fonts/");
-} */
-
 /* -------------============  HEADER START ============------------*/
 .container-head {
   width: 1110px;
-  /* padding-top: 35px;
-  padding-bottom: 98px; */
   height: auto;
-  /* display: block; */
   margin: auto;
   padding: 31px 15px 24px 15px;
 }
@@ -108,23 +99,32 @@ body {
 /* -------------============  SLIDER START ============------------*/
 
 .container-slider {
-  width: 1600px;
-  height: 600px;
   margin: auto;
   padding: 0px;
-
-  background-image: url(../img/Slider_rectangle.png);
+  /* height: 600px; */
+  /* background-image: url(../img/Slider_rectangle.png); */
 
   position: relative;
   left: 0px;
   top: 0px;
 }
 
-.slider__img__1 {
+.slider__img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.slider__img::after {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 74;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
+  background-color: rgba(0, 0, 2, 0.92);
+  z-index: 80;
 }
 
 .img__opacity {
@@ -221,7 +221,6 @@ body {
 /* -------------============  CONTENT START ============------------*/
 
 .content__container {
-  width: 1570px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
@@ -510,11 +509,7 @@ body {
 
  /* -------------============  FOOTER START ============------------*/
 .container__footer {
-  width: 1570px;
-  /* height: auto; */
   padding: 30px 15px 30px 15px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: auto;
   background-color: grey;
 }
