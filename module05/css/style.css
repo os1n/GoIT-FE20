@@ -193,15 +193,15 @@ body {
 }
 
 .slider__arrow_text {
-  position: absolute;
+  /* position: absolute; */
   font-size: 100px;
   font-family: "Pe-icon-7-stroke";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 0.11;
+  line-height: 10px;
   text-align: center;
-  padding-top: 42px;
-  z-index: 76;
+  padding-top: 47px;
+  /* z-index: 76; */
 }
 
 .slider__arrow__left {
