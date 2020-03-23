@@ -1,0 +1,122 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.media__gallery__container {
+    margin: auto;
+    width: 100%;
+    border: 10px solid coral;
+}
+
+
+.media__gallery {
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1200px;
+    border: 1px solid  tomato;
+}
+
+.gallery__item {
+    padding:10px 10px;
+    margin: 0;
+    width: 300px;
+}
+
+/* SOCIAL GALERY START  */
+
+.social__gallery__container {
+    width: 100%;
+    border: 10px solid greenyellow;
+}
+
+.social__gallery {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 10px solid lightseagreen;
+}
+
+.social__item__card {
+    width: auto;
+    padding: 5px 20px;
+    border: 5px solid grey;
+    box-shadow: indigo;
+    margin-right: 20px;
+}
+
+.social__item__card:hover {
+    box-shadow: grey;
+    transition: linear 3s;
+}
+
+.social__item__card:hover .h2{
+    color: hotpink;
+    transition: linear 0.3s;
+}
+
+.social__item__card:hover .social__button{
+    background-color: hotpink;
+    color: white;
+    transition: linear 0.3s;
+}
+
+
+
+.social__item__card:hover .social_image {
+    transform: rotate(5deg);
+    
+}
+
+.social__item__card:last-child {
+    margin-right: 0px;
+}
+
+.rotate__image {
+    /* transform: rotate(20deg); */
+}
+
+
+.social_image {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    transition: rotate 2.2s;
+    
+}
+
+.h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.social__item__text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 35px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social__button {
+    display: block;
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
