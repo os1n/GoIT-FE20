@@ -16,7 +16,7 @@
 <body>
     <header class="page-header">
         <nav class="container header-content">
-            <div class="page-logo">MoGo</div>
+            <a href="#" class="page-logo">MoGo</a>
             <ul class="header-content__navigation">
                 <li class="header-content__items">
                     <a href="#" class="header-content__items__links">About</a>
@@ -205,8 +205,21 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <h3> &copy; 2016 MoGo free PSD template by Laaqiq </h3>
-            <nav class="footer-content__form"> subscribe</nav>
+            <!-- <header class="horizontal-line"></header> -->
+            <!-- <hr color="black" width="100%" size="1px"> <br> -->
+            <p class="footer-content__author">&copy; 2016 MoGo free PSD template by <span class="footer-content__author-dec"> Laaqiq</span></p>
+            
+            <form class="footer-content__form-container" action="#">
+                             
+                <div >
+                  <input class="footer-content__input-container" style="display: inline-block;" type="text" placeholder="Your Email..." name="name" required>
+                </div>
+              
+                <div>
+                  <input class="footer-content__btn" type="submit" value="Subscribe">
+                </div>
+
+            </form>
 
         </div>
 
