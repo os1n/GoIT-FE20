@@ -220,8 +220,8 @@
 }
 
 .main-content__our-team-list__item__logo__overlay {
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
     position: absolute;
     top: 0px;
     left: 0px;
