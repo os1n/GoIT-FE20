@@ -434,6 +434,7 @@ body {
     
       margin-right: 6px;
       margin-bottom: 5px;
+      cursor: pointer;
     }
   
 
@@ -450,6 +451,7 @@ body {
       font-size: 30px;
       text-align: left;
       padding-left: 10px;
+      cursor: pointer;
     }
   
    .shopping__navigate__button__small:hover {

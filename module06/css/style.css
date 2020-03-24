@@ -103,11 +103,11 @@
 
 /* =========-------- MAIN -- */
 
-.main-content {
+/* .main-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 .main-content__header {
     display: flex;
@@ -199,36 +199,94 @@
 }
 
 .main-content__our-team-list {
-    list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;   
+    justify-content: space-between;   
+    list-style: none;
 }
 
 .main-content__our-team-list__item {
+    position: relative;
     width: 380px;
     margin-bottom: 80px;
-    background-color: var(--like-menu);
     
 }
 
 .main-content__our-team-list__item__logo {
-    width: 380;
-    height: 470;
+    width: 380px;
+    height: 470px;    
+    
+}
+
+.main-content__our-team-list__item__logo__overlay {
+    /* display: none; */
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     background-image: var(--gradient-overlay);
+
 }
 
 .main-content__our-team-list__item__img {
 
 }
 
-.main-content__our-team-list__item__img:hover {
-    
-    opacity: 0.5;
+.main-content__our-team-list__item__logo:hover {
     transform: translate(-10px, -10px);
-    
+    box-shadow: 10px 10px var(--like-menu);
 }
+.main-content__our-team-list__item__logo:hover .main-content__our-team-list__item__logo__overlay {
+    display: block;
+}
+
+.main-content__our-team-list__item__logo__overlay__btns-cntr{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content__our-team-list__item__logo__overlay__btns-cntr__btn {
+    width: 55px;
+    height: 55px;
+    background-color: var(--bg-icon);
+    border: 0px;
+    margin-right: 1px;
+}
+
+.main-content__our-team-list__item__logo__overlay__btns-cntr__btn:hover {
+    background-color: var(--like-menu);
+    cursor: pointer;
+}
+
+.main-content__our-team-list__item__header {
+    font-family: var(--font-f_first);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 30px;
+}
+
+.main-content__our-team-list__item__text {
+    font-family: var(--font-f_second);
+    font-weight: 300i;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 16px;
+
+}
+
+
+
 
 
 

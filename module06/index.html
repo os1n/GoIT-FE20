@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,500,700|Roboto:300i,400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
 
 
 
@@ -36,13 +36,15 @@
     </header>
 
     <main class="main-part">
-        <div class="container main-content">
-            
-            <h1 class="main-content__header">
-                <span class="main-content__h1-1">  We work with </span>
-                <!-- <br> -->
-                <span class="main-content__h1-2">amazing services</span>
-            </h1>
+       
+        <section class="Products-overview container">    
+            <header>
+                <h1 class="main-content__header">
+                    <span class="main-content__h1-1">  We work with </span>
+                    <!-- <br> -->
+                    <span class="main-content__h1-2">amazing services</span>
+                </h1>
+            </header>
             <!-- ::after -->
 
             <ul class="main-content__items-container">
@@ -106,35 +108,68 @@
                     </div>
                 </li>
             </ul>
+        </section>
 
-            <h1 class="main-content__header">
-                <span class="main-content__h1-1">  Who we are </span>
-                <!-- <br> -->
-                <span class="main-content__h1-2">Meet our team</span>
-            </h1>
-            <p class="main-content__our-team-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <section class="Our-team container">    
+        
+            <header>
+                <h1 class="main-content__header">
+                    <span class="main-content__h1-1">  Who we are </span>
+                    <!-- <br> -->
+                    <span class="main-content__h1-2">Meet our team</span>
+                </h1>
+                <p class="main-content__our-team-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <!-- ::after -->
+            </header>         
             
             <ul class="main-content__our-team-list">
                 
                 <li class="main-content__our-team-list__item">
                     <div class="main-content__our-team-list__item__logo">
-                        <img src="./img/dix.png" alt="dix" class="main-content__our-team-list__item__img" width="380" height="470">
+                        <div class="main-content__our-team-list__item__logo__overlay">
+                            
+                        </div>
+                    <img src="./img/dix.png" alt="dix" class="main-content__our-team-list__item__img" width="380" height="470">
                     </div>
-                    <h3>Matthew Dix</h3>
-                    <p>Graphic Design</p>
+                    <h3 class="main-content__our-team-list__item__header"> Matthew Dix</h3>
+                    <p class="main-content__our-team-list__item__text">Graphic Design</p>
                 </li>
                 
                 <li class="main-content__our-team-list__item">
+                    <div class="main-content__our-team-list__item__logo">
+                        <div class="main-content__our-team-list__item__logo__overlay">
+                            <div class="main-content__our-team-list__item__logo__overlay__btns-cntr">
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/facebook.svg" alt="facebook">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/twitter.svg" alt="twitter">
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/pinterest.svg" alt="pinterest">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/instagram.svg" alt="instagram">    
+                                </button>
+                            </div>    
+                        </div>
                     <img src="./img/cambell.png" alt="cambell" class="main-content__our-team-list__item__img" width="380" height="470">
+                
+                    <h3 class="main-content__our-team-list__item__header"> Christopher Campbell</h3>
+                    <p class="main-content__our-team-list__item__text">Branding/UX design</p>
                 </li>
                 
                 <li class="main-content__our-team-list__item">
                     <img src="./img/fertig.png" alt="fertig" class="main-content__our-team-list__item__img" width="380" height="470">
+                    
+                    
+                    <h3 class="main-content__our-team-list__item__header"> Michael Fertig </h3>
+                    <p class="main-content__our-team-list__item__text">Developer</p>
                 </li>
 
             </ul>
-        </div>
+        </section>
+       
     </main>
 
     <footer class="footer">
