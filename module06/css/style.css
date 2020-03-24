@@ -17,8 +17,8 @@
     --header-hover: #f38181;
     --bg-icon: #fce38a;
     --gradient-overlay: linear-gradient(
-      rgb(243, 129, 129, 0.9) 0%,
-      rgb(252, 227, 138, 0.9) 100% );
+      rgba(243, 129, 129, 0.9) 0%,
+      rgba(252, 227, 138, 0.9) 100% );
 }
 
 
@@ -209,8 +209,33 @@
 .main-content__our-team-list__item {
     width: 380px;
     margin-bottom: 80px;
+    background-color: var(--like-menu);
+    
 }
 
+.main-content__our-team-list__item__logo {
+    width: 380;
+    height: 470;
+    background-image: var(--gradient-overlay);
+}
+
+.main-content__our-team-list__item__img {
+
+}
+
+.main-content__our-team-list__item__img:hover {
+    
+    opacity: 0.5;
+    transform: translate(-10px, -10px);
+    
+}
+
+
+
+
+
+
+/* ========---------FOOTER -- */
 
 .footer-content {
     display: flex;
@@ -219,7 +244,6 @@
 }
 
 
-/* ========---------FOOTER -- */
 
 /* .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
