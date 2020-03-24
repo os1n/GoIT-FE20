@@ -293,16 +293,22 @@ body {
   .content__item {
     float: left;
     list-style: none;
- 
-    min-width: 255px;
+     
+    width: 255px;
     margin-bottom: 30px;
     margin-right: 30px;
     background-color: #323232;
+    overflow: hidden;
   }
+
+.content__item__image {
+  position: relative;
+  display: block;
+}
 
 .content__image {
   display: block;
-  background-color: #e8effc;
+  /* background-color: #e8effc; */
 }
 
 .content__image__link {
@@ -372,33 +378,40 @@ body {
     background-color: rgb(26, 188, 156);
   }
 
-  .content__item:hover .shopping__navigate__container {
+  .content__item:hover .shopping__navigate__overlay {
     display: block;
   }
   
   /* HOVER FOR two elements end */
 
   /* -------------============  New Shopping Hover START ============------------ */
-  .shopping__navigate__container {
+  .shopping__navigate__overlay {
     display: none;
     /* -reserved for adjustments */
     /* display: block;   */
     position: absolute;
-    width: 235px;
-    height: 263px;
+    box-sizing: border-box;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
 
-    border-width: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.549;
-    z-index: 75;    
+    border: 10px solid transparent;
+
+    padding: 10px;
+    background-clip: padding-box;
+    transition: all 0.5s;
+
+    background-color: rgba(0, 0, 2, 0.52);
+    /* opacity: 0.549;
+    z-index: 75;     */
   }
 
   .shopping__navigate__button-container {
-    padding-top: 100px;
-    padding: 79px 0px 0px 30px;
-    z-index: 76;
+    position: relative;
+    /* padding-top: 100px; */
+    padding: 79px 0px 0px 20px;
+    /* z-index: 76; */
     
   }
 
@@ -407,7 +420,7 @@ body {
       border-width: 1px;
       border-color: rgb(255, 255, 255);
       border-style: solid;
-      background-color: rgb(0, 0, 0);
+      background-color: transparent;
       
       width: 50px;
       height: 50px;
@@ -419,7 +432,7 @@ body {
       line-height: 50px;
       text-align: center;
     
-      margin-right: 6.5px;
+      margin-right: 6px;
       margin-bottom: 5px;
     }
   
@@ -427,21 +440,14 @@ body {
    .shopping__navigate__button__big 
     {  
       border: 1px solid rgb(255, 255, 255);
-      background-color: rgb(0, 0, 0);
+      background-color: transparent;
 
       width: 164px;
       height: 48px;
-/* 
-      position: absolute;
-      left: 15%;
-      top: 65%; */
-      /* transform: translate(-50%); */
-      z-index: 76;
-
+     
       font-weight: 600;
       color: rgb(255, 255, 255);
       font-size: 30px;
-      line-height: 30px;
       text-align: left;
       padding-left: 10px;
     }
