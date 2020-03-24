@@ -69,7 +69,6 @@
     content: "";
     margin: 10px 0px;
     padding: 0px;
-    align-content: left;
     width: 100%;
     height: 3px;
     background-color: var(--col-white);
@@ -98,7 +97,7 @@
     font-size: 14px;
     font-family: var(--font-f_first);
     font-weight: regular;
-    text-transform: uppercase;
+    text-transform: 400;
     line-height: 1.2;
     
     text-decoration: none;
@@ -106,12 +105,6 @@
 }
 
 /* =========-------- MAIN -- */
-
-/* .main-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
 
 .main-content__header {
     display: flex;
@@ -166,7 +159,6 @@
     min-height: 80px;
     margin-bottom: 100px; 
     display: flex;
-    justify-content: left;  
 }
 
 .main-content__items-container__item__logo {
@@ -183,6 +175,7 @@
     font-family: var(--font-f_first);
     color: var(--text-dark);
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .main-content__items-container__item__text-2 {
@@ -286,7 +279,7 @@
 
 .main-content__our-team-list__item__text {
     font-family: var(--font-f_second);
-    font-weight: 300i;
+    font-weight: 300;
     font-style: italic;
     font-size: 15px;
     text-align: center;
