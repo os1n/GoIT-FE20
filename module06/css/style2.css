@@ -1,6 +1,7 @@
 * {
     padding:0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .media__gallery__container {
@@ -48,18 +49,24 @@
     width: auto;
     padding: 5px 20px;
     border: 5px solid grey;
-    box-shadow: indigo;
+    box-shadow: 10px 5px 5px grey;
     margin-right: 20px;
+    transition-property: all;
 }
 
 .social__item__card:hover {
-    box-shadow: grey;
-    transition: linear 3s;
+    transition: linear 0.2s;
+    box-shadow: 15px 10px 35px darkslateblue;
 }
 
 .social__item__card:hover .h2{
     color: hotpink;
-    transition: linear 0.3s;
+    transition: color 0.3s;
+    /* font-size: 46px; */
+    /* transform: font-size(46px); */
+    transform: scale(1.15, 1.15);
+    transition-property: transform 0.2;
+    /* transition-duration: 0.3s; */
 }
 
 .social__item__card:hover .social__button{
@@ -71,24 +78,22 @@
 
 
 .social__item__card:hover .social_image {
-    transform: rotate(5deg);
-    
+    transform: rotate(5deg);    
 }
 
 .social__item__card:last-child {
     margin-right: 0px;
 }
 
-.rotate__image {
-    /* transform: rotate(20deg); */
-}
+
 
 
 .social_image {
+    /* transition-property: all; */
+    transition-duration: 0.2s;
     display: block;
     padding: 10px;
     margin: auto;
-    transition: rotate 2.2s;
     
 }
 
