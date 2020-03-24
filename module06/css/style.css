@@ -96,8 +96,8 @@
 .header-content__items__links {
     font-size: 14px;
     font-family: var(--font-f_first);
-    font-weight: regular;
-    text-transform: 400;
+    font-weight: 400;
+    text-transform: uppercase;
     line-height: 1.2;
     
     text-decoration: none;
@@ -138,11 +138,11 @@
     content: "";
     margin: auto;
     margin-top: 38px;
-    align-content: left;
     width: 100px;
     height: 3px;
     background-color: var(--header-hover);
     display: block; 
+
 }
 
 .main-content__items-container {
