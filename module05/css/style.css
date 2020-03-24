@@ -473,46 +473,46 @@ body {
     text-decoration: none;
    }
   
+   .shopping__navigate__button_icon {
+    float: left;
+   }
+
   .shopping__navigate__button_text {
     display: inline-block;
-    float: right;
-    padding-top: 14px;
-    padding-left: 7px;
-    font-size: 14px;
+    float: left;
     font-family: "Pe-icon-7-stroke", "OpenSans", sans-serif;
+    padding-top: 14px;
+    padding-left: 10px;
+    font-size: 14px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 0.11;
-   
-    z-index: 76;
-    text-align: center;
-    opacity: 1;
   }
  
-  .button__heart {
-    /* position: absolute;
+  /* .button__heart {
+    position: absolute;
     left: 15%;
-    top: 40%; */
-    /* transform: translate(-50%); */
+    top: 40%; 
+    transform: translate(-50%);
     z-index: 76;
   }
   
   .button__sort {
-    /* position: absolute;
+    position: absolute;
     left: 41.5%;
-    top: 40%; */
-    /* transform: translate(-50%); */
+    top: 40%; 
+    transform: translate(-50%);
     z-index: 76;
   }
 
   .button__clock {
-    /* position: absolute;
+    position: absolute;
     left: 68%;
     top: 40%;
     transform: translate(-50%);
-    z-index: 76; */
-  }
+    z-index: 76;
+  } */
 
   /* -------------============  New Shopping Hover END ============------------ */
 
