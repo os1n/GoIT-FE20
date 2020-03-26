@@ -27,8 +27,8 @@
   --col-icon-btns: #ff4e50;
   --col-icon-1: #ff4e50;
   --col-icon-2: #ffa507;
-  --col-icon-3: #1cd7ad;
   --col-icon-4: #4e73db;
+  --col-icon-3: #1cd7ad;
 }
 
 
@@ -76,11 +76,11 @@ img {
   color: var(--col-white);
 }
 
-.btn-first-type {
+.btn-type-1 {
   border-radius: 2rem;
 }
 
-.btn-second-type {
+.btn-type-2 {
   width: 100%;
   min-height: 4rem;
   padding: 1.2rem;
