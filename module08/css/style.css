@@ -41,23 +41,20 @@
   list-style: none;
 }
 
-html {
-  font-size: 10px;
-}
 
 body {
-  font-family: var(--font-f_first);
-  font-weight: 700;
+    font-family: var(--font-f_first);
+    font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
+
+html {font-size: 10px;}
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -258,10 +255,11 @@ img {
   cursor: pointer;
   transition: all 0.2s linear;
 }
-
+/* ==-- may apply some dec-s --== */
 .btn-other-partners:focus,
 .btn-other-partners:hover {
   border: 0.2rem solid var(--col-icon-btns); 
 }
+
 
 /* ============---------- MAIN PART END ----------============ */

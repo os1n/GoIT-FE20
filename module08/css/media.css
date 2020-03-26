@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .container {
       width: 66rem;
       padding: 0;
@@ -68,7 +68,7 @@
     .btn-more-partners {
       margin: 0 auto;
       margin-top: 2rem;
-      max-width: 19.2rem;
+      max-width: 19rem;
     }
   }
   
@@ -85,10 +85,20 @@
     .partners__item:nth-child(4) {
       margin-bottom: 0;
     }
+
+    .btn-type-2 {
+        width: 19.2rem;
+        margin: auto;
+      }
   }
   
   @media (min-width: 960px) {
     .container {
       width: 960px;
     }
+
+    .btn-type-2 {
+        width: 19.2rem;
+        margin: auto;
+      }
   }
