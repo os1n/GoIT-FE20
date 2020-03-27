@@ -1,44 +1,44 @@
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Roboto Light"), local("Roboto-Light"),
-    url("../fonts/roboto-v20-cyrillic_latin-300.woff2") format("woff2"),
-    url("../fonts/roboto-v20-cyrillic_latin-300.woff") format("woff");
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto Light"), local("Roboto-Light"),
+        url("../fonts/roboto-v20-cyrillic_latin-300.woff2") format("woff2"),
+        url("../fonts/roboto-v20-cyrillic_latin-300.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    src: local("Montserrat Bold"), local("Montserrat-Bold"),
-      url("../fonts/montserrat-v14-cyrillic_latin-700.woff2") format("woff2"),
-      url("../fonts/montserrat-v14-cyrillic_latin-700.woff") format("woff");
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Montserrat Bold"), local("Montserrat-Bold"),
+        url("../fonts/montserrat-v14-cyrillic_latin-700.woff2") format("woff2"),
+        url("../fonts/montserrat-v14-cyrillic_latin-700.woff") format("woff");
   }
 
 
 :root {
-  --font-f_first: "Montserrat", sans-serif;
-  --font-f_second: "Roboto", sans-serif;
-  --col-white: #fff;
-  --col-bg-dark: #1a1915;
-  --col-txt-dark: #333;
-  --col-txt-reg: #666;
-  --col-icon-btns: #ff4e50;
-  --col-icon-1: #ff4e50;
-  --col-icon-2: #ffa507;
-  --col-icon-4: #4e73db;
-  --col-icon-3: #1cd7ad;
+    --font-f_first: "Montserrat", sans-serif;
+    --font-f_second: "Roboto", sans-serif;
+    --col-white: #fff;
+    --col-bg-dark: #1a1915;
+    --col-txt-dark: #333;
+    --col-txt-reg: #666;
+    --col-icon-btns: #ff4e50;
+    --col-icon-1: #ff4e50;
+    --col-icon-2: #ffa507;
+    --col-icon-4: #4e73db;
+    --col-icon-3: #1cd7ad;
 }
 
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 
@@ -58,31 +58,31 @@ img {
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 1.4rem;
-  width: 32rem;
+    margin: 0 auto;
+    padding: 0 1.4rem;
+    width: 32rem;
 }
 
 .ligth-text {
-  font-family: var(--font-f_second);
-  font-weight: 300;
+    font-family: var(--font-f_second);
+    font-weight: 300;
 }
 
 .btn-all {
-  font-size: 1.4rem;
-  color: var(--col-white);
+    font-size: 1.4rem;
+    color: var(--col-white);
 }
 
 .btn-type-1 {
-  border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 .btn-type-2 {
-  width: 100%;
-  min-height: 4rem;
-  padding: 1.2rem;
-  display: block;
-  background-color: var(--col-icon-btns);
+    width: 100%;
+    min-height: 4rem;
+    padding: 1.2rem;
+    display: block;
+    background-color: var(--col-icon-btns);
 }
 
 /* ============---------- HEADER START ----------============ */
@@ -99,30 +99,30 @@ img {
 }
 
 .header {
-  margin-bottom: 2.7rem;
+    margin-bottom: 2.7rem;
 }
 
 .login .btn-all {
-  padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.6rem;
 }
 
 .login .btn-log-in {
-  padding: 0;
-  margin-right: 1.6rem;
-  transition: color 0.2s linear, text-shadow 0.2s linear;
+    /* padding: 0; */
+    margin-right: 1.6rem;
+    transition: all 0.2s linear;
+    /* border: 0.2rem solid var(--col-white); */
 }
 
-.btn-log-in:focus,
-.btn-log-in:hover,
-.btn-sign-up:focus,
-.btn-sign-up:hover {
-  color: var(--col-icon-btns);
+.btn-log-in:focus, .btn-log-in:hover,
+.btn-sign-up:focus, .btn-sign-up:hover {
+    /* color: var(--col-icon-btns); */
+    border: 0.2rem solid var(--col-white);
 }
 
 .btn-sign-up {
-    display: inline-block;
+    /* display: inline-block; */
     transition: all 0.2s linear;
-    border: 0.2rem solid var(--col-white);
+    /* border: 0.2rem solid var(--col-white); */
 }
 
 /*============---------- HEADER END ----------============*/
@@ -130,21 +130,21 @@ img {
 /*============---------- MAIN PART START ----------============*/
 
 .title-site {
-  margin: 11.5rem 0 0;
-  font-size: 2rem;
-  text-transform: uppercase;
+    margin: 11.5rem 0 0;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .title-block__title-h2 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  line-height: 1.3;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1.3;
 }
 
 .title-block__sub-title {
-  margin: 0.9rem auto 1.5rem;
-  max-width: 22.4rem;
-  font-size: 1.8rem;
+    margin: 0.9rem auto 1.5rem;
+    max-width: 22.4rem;
+    font-size: 1.8rem;
 }
 
 .title-block__btn {
@@ -152,25 +152,25 @@ img {
 }
 
 .partners {
-  padding: 6.5rem 0 5.7rem;
-  color: var(--col-txt-dark);
-  text-align: center;
+    padding: 6.5rem 0 5.7rem;
+    color: var(--col-txt-dark);
+    text-align: center;
 }
 
 .partners__title-h2 {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 .partners__item {
-  position: relative;
-  margin: 0 auto;
-  padding: 1.5rem 1rem;
-  max-width: 23.5rem;
+    position: relative;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    max-width: 23.5rem;
 }
 
 .partner-photo {
-  margin: 0 auto;
-  border-radius: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .partner-icon {
@@ -194,7 +194,7 @@ img {
 }
 
 .partner-icon--red {
-  background-color: var(--col-icon-1);
+    background-color: var(--col-icon-1);
 }
 
 .partner-icon--red::after {
@@ -204,7 +204,7 @@ img {
 }
 
 .partner-icon--yellow {
-  background-color: var(--col-icon-2);
+    background-color: var(--col-icon-2);
 }
 
 .partner-icon--yellow::after {
@@ -214,7 +214,7 @@ img {
 }
 
 .partner-icon--green {
-  background-color: var(--col-icon-3);
+    background-color: var(--col-icon-3);
 }
 
 .partner-icon--green::after {
@@ -224,17 +224,17 @@ img {
 }
 
 .partner-icon--blue {
-  background-color: var(--col-icon-4);
+    background-color: var(--col-icon-4);
 }
 
 .partner-icon--blue::after {
-  width: 1.7rem;
-  height: 1.6rem;
-  background-image: url(../img/icon_airplane.png);
+    width: 1.7rem;
+    height: 1.6rem;
+    background-image: url(../img/icon_airplane.png);
 }
 
 .partner-name {
-  margin: 1.9rem 0 1.4rem;
+    margin: 1.9rem 0 1.4rem;
 }
 
 .partner-name__link {
@@ -243,22 +243,25 @@ img {
 }
 
 .partner-info {
-  font-size: 1.4rem;
-  color: var(--col-txt-reg);
+    font-size: 1.4rem;
+    color: var(--col-txt-reg);
 }
 
 .btn-other-partners {
-  margin-top: 1.5rem;
-  color: var(--col-icon-btns);
-  background-color: transparent;
-  border: 0.2rem solid var(--col-icon-btns);
-  cursor: pointer;
-  transition: all 0.2s linear;
+    margin: auto;
+    max-width: 226px;
+    margin-top: 1.5rem;
+    color: var(--col-icon-btns);
+    background-color: transparent;
+    border: 0.2rem solid var(--col-icon-btns);
+    cursor: pointer;
+    transition: all 0.2s linear;
 }
 /* ==-- may apply some dec-s --== */
-.btn-other-partners:focus,
-.btn-other-partners:hover {
-  border: 0.2rem solid var(--col-icon-btns); 
+.btn-other-partners:focus, .btn-other-partners:hover {
+    border: 0.2rem solid var(--col-icon-btns); 
+    box-shadow: 0.5rem 0.5rem 1.2rem 0.02rem rgba(0, 0, 255, .2);
+    
 }
 
 

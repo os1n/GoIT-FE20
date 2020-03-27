@@ -1,104 +1,98 @@
 @media (min-width: 767px) {
     .container {
-      width: 66rem;
-      padding: 0;
+        width: 66rem;
+        padding: 0;
     }
   
     .section-header {
-      min-height: 70rem;
+        min-height: 70rem;
     }
   
     .header {
-      margin-bottom: 15.6rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        margin-bottom: 15.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
   
     .title-site {
-      margin-top: 0;
-      order: -1;
+        margin-top: 0;
+        order: -1;
     }
   
     .title-block {
-      margin: 0 auto;
-      max-width: 55rem;
+        margin: 0 auto;
+        max-width: 55rem;
     }
   
     .title-block__title-h2 {
-      font-size: 5.2rem;
+        font-size: 5.2rem;
     }
   
     .title-block__sub-title {
-      margin: 2rem auto 3.5rem;
-      max-width: 100%;
-      font-size: 2.4rem;
+        margin: 2rem auto 3.5rem;
+        max-width: 100%;
+        font-size: 2.4rem;
     }
     .title-block__btn {
-      margin: 0 auto;
-      max-width: 226px;
+        margin: 0 auto;
+        max-width: 226px;
     }
   
     .partners {
-      padding: 7rem 0 4rem;
+        padding: 7rem 0 4rem;
     }
   
     .partners__title-h2 {
-      margin-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
     }
   
     .partners__list {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
   
     .partners__item {
-      margin: 0;
+        margin: 0;
     }
   
     .partners__item:first-child {
-      order: -2;
+        order: -2;
     }
   
     .partners__item:nth-child(3) {
-      order: -1;
+        order: -1;
     }
   
     .btn-more-partners {
-      margin: 0 auto;
-      margin-top: 2rem;
-      max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        max-width: 19rem;
     }
   }
   
-  @media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 768px) and (max-width: 959px) {
     .partners__list {
-      padding: 0 7rem;
+        padding: 0 7rem;
     }
-  
+
     .partners__item {
-      margin-bottom: 4rem;
+        margin-bottom: 4rem;
     }
-  
+
     .partners__item:nth-child(2),
     .partners__item:nth-child(4) {
-      margin-bottom: 0;
+        margin-bottom: 0;
     }
 
-    .btn-type-2 {
-        width: 19.2rem;
-        margin: auto;
-      }
-  }
+ 
+}
   
-  @media (min-width: 960px) {
+@media (min-width: 960px) {
     .container {
-      width: 960px;
+        width: 960px;
     }
 
-    .btn-type-2 {
-        width: 19.2rem;
-        margin: auto;
-      }
-  }
+    
+}
