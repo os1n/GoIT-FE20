@@ -81,9 +81,12 @@
         margin-bottom: 4rem;
     }
 
-    .partners__item:nth-child(2),
-    .partners__item:nth-child(4) {
+    .partners__item:nth-child(2), .partners__item:nth-child(4) {
         margin-bottom: 0;
+    }
+
+    .btn-other-partners {
+        max-width: 19.2rem;
     }
 
  
