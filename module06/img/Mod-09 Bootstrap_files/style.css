@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    padding: 10rem auto;
+    margin: auto;
+}
+
+.title-site {
+    display: block;
+    text-align: center;
+}
+
