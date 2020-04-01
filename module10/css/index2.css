@@ -1,0 +1,167 @@
+/* Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+
+.section1-full-screen {
+    width: 100vh;
+    height: 100vh;
+    /* min-height: 100%; */
+    /* background-color: black; */
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: repeat;
+
+    /* position: relative; */
+    
+}
+
+.background-filter {
+    content: '';
+    width: 100vh;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(255, 0, 0, 0.11), rgba(0, 0, 0, 0.99));
+}
+
+.task2-container {
+   
+    width: 400px;
+    height: 400px;
+    content: '';
+    position: relative;
+    margin: 20px;
+    
+    background-color: #424242;
+}
+
+.task2_container_elements {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+
+.task2_container_elements.blue {
+    background-color: blue;
+    left:0%;
+    /* transform: translate(-50%, 0); */
+}
+
+.green {background-color: green;
+    right: 50%;
+    transform: translateX(+50%);
+} 
+
+.red {background-color: red;
+    right: 0%;
+}
+
+
+
+.yellow {background-color: yellow;
+    top:50%;
+    left: 0%;    
+    transform: translateY(-50%);
+} 
+
+.brown {background-color: brown;
+    top:50%;
+    left: 50%;    
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.orange {background-color: orange;
+    top:50%;
+    right: 0%; 
+    transform: translateY(-50%);
+}
+
+.violet {background-color: violet; 
+    left: 0%;    
+    bottom: 0%;
+}
+
+.coral {background-color: coral;
+    right: 50%;   
+    bottom: 0%;
+    transform: translateX(+50%);
+}
+
+.black {background-color: black;
+    bottom: 0%;
+    right: 0%;    
+}
+
+.wrapper {
+    max-width: 600px;;
+    margin: auto;
+  } 
+  
+  .menu {
+    list-style: none;
+    padding: 10px;
+    /* border: 2px solid #424242; */
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+  }
+  
+  .menu-item {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    
+    background: lightblue;
+  }
+  
+  .menu-item > a,
+  .submenu-item > a {
+    display: inline-block;
+    padding: 15px 10px; 
+    width: 150px;
+    color: #424242;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 5px;
+    /* border: 1px solid coral; */
+  }
+  
+  .menu-item > a:hover,
+  .submenu-item > a:hover{
+    background: lightblue;
+    color: darkblue;
+    border-radius: 5px;
+  }
+  
+  .submenu {
+    
+    display: none; /* делаем невидимым .submenu */
+    
+    position: absolute; /* при появлении .submenu окажется поверх других элементов */
+    top: 100%;
+    left: 0;
+    list-style: none;
+    /* background-color: blue; */
+    /* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3); */
+    z-index: 3;
+    border-radius: 5px;
+  }
+  
+  /* делаем .submenu видимым */
+  .menu-item:hover > .submenu {
+    display: block;
+  }
+  
+  /* .submenu-item {
+    white-space: nowrap;
+  } */
