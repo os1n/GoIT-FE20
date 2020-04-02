@@ -3,103 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Module10-A-T</title>
     <link rel="stylesheet" href="./css/index2.css">
 </head>
 <body>
     
-    <section> 
+    <section class="task3-container"> 
         <h2>Задание 3</h2>
-        
-            <div class="wrapper">
-                <ul class="menu">
-                <!-- Пункт меню -->
-                <li class="menu-item">
-                    <a href="#">Home</a>
-                    <!-- Подменю вложенное в menu-item -->
-                    <ul class="submenu">
-                    <li class="submenu-item">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Company goal</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Company history</a>
-                    </li>
-                    </ul>
-                </li>
-                <!-- Пункт меню -->
-                <li class="menu-item">
-                    <a href="#">Products</a>
-                    <!-- Подменю вложенное в menu-item -->
-                    <ul class="submenu">
-                    <li class="submenu-item">
-                        <a href="#">Shoes</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Slippers</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Flip-flops</a>
-                    </li>
-                    </ul>
-                </li>
-                <!-- Пункт меню -->
-                <li class="menu-item">
-                    <a href="#">Arcticles</a>
-                    <!-- Подменю вложенное в menu-item -->
-                    <ul class="submenu">
-                    <li class="submenu-item">
-                        <a href="#">News</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Materials</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="#">Ecology pocily</a>
-                    </li>
-                    </ul>
-                </li>
-                </ul>
-            </div>
-  
-  
 
+        <header class="task3-header">
+            <h1 class="task3-header__title"><a class="task3-header__title__link" href="#">logo</a></h1>
+            <nav class="task3-header__navigation">
+                <a class="task3-header__navigation__link1" href="#">link 1</a>
+                <a class="task3-header__navigation__link2" href="#">link 2</a>
+                <a class="task3-header__navigation__link3" href="#">link 3</a>
+                <a class="task3-header__navigation__link4" href="#">link 4</a>
+            </nav>
+        </header>
+
+    </section>    
+
+    <section class="task2-container"> 
         <h2>Задание 2</h2>
 
-        <div class="task2-container"> 
-            
-            <div class="task2_container_elements blue"></div>
-
-            <div class="task2_container_elements green"></div>
-
-            <div class="task2_container_elements red"></div>
-
-            <!-- Row 2 -->
-            <div class="task2_container_elements yellow"></div>
-
-            <div class="task2_container_elements brown"></div>
-
-            <div class="task2_container_elements orange"></div>
-
-            <!-- Row 3 -->
-
-            <div class="task2_container_elements violet"></div>
-
-            <div class="task2_container_elements coral"></div>
-
-            <div class="task2_container_elements black"></div>
-
+        <div class="box-retina">
+            Box for retina
         </div>
-
-
-        <h1>Задание 1</h1>
-        <div class="section1-full-screen">
-            <div class="background-filter"></div>
-        </div>
-        
+        <p>Сделать блок 400x200 с любым фоновым изображением. Начальный размер изображения 400x200. Не должно быть пикселизации изображения на экранах с пиксельным соотношением 2.
+        Используйте placeimg.com для генерации изображений разных размеров.</p>
     </section>
+    
+    <section class="task3-container"> 
+        <h1>Задание 1</h1>
+        
+        <div>
+            
+            <picture>
+                <source srcset="https://placeimg.com/800/400/nature 2x,
+                                https://placeimg.com/1000/600/people 3x">
+                <img srcset="https://placeimg.com/400/200/architecture" alt="Generated image">
+            </picture>
+    
+        </div>
+        <span>-- Создать контентное изображение, используя тег picture, в котором будет изображение природы. Начальный размер изображения 400x200. Не должно быть пикселизации изображения на экранах с пиксельным соотношением 2.
+        Используйте placeimg.com для генерации изображений разных размеров. </span>
+    </section>    
+    
 
 
 </body>
