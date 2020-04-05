@@ -219,10 +219,10 @@
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+    color: var(--col-white);
 }
 
 .page-header__button__link {
-    color: var(--col-white);
     font-family: var(--font-f_first);
     font-size: 1.4rem;
     font-weight: 700;
@@ -233,7 +233,7 @@
     transition: all 0.2s;
 }
 
-.page-header__button:hover .page-header__button__link {
+.page-header__button:hover {
     color: var(--bg-icon);
 }
 
