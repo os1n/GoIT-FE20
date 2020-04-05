@@ -1,0 +1,39 @@
+/* Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+
+
+.task3-container {
+    width: 400px;
+    min-height: 200px;
+    margin: 20px auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.task2-container {
+  width: 400px;
+  /* height: 200px; */
+  margin: 20px auto;
+  background-color: lightsalmon;
+}
+
+.box-retina {
+  width: 400px;
+  min-height: 200px;
+  background: url('https://placeimg.com/400/200/nature') no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .box {
+    background: url('https://placeimg.com/800/400/nature') no-repeat;
+  }
+}
+
+.wrapper {
+    max-width: 600px;;
+    margin: auto;
+  } 

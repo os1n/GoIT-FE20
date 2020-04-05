@@ -3,259 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title> Module05 Absolute Positioning</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet"> 
-    <link href="./fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-    
+    <title>Mod-06 Flex & Animation</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,500,700|Roboto:300i,400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
     
+
+
 </head>
 <body>
-    <!-- HEADER WRAPPER class="head-menu" -->
-    <header >
-        <div class="container-head">
-            <nav class="head-menu__container clearfix">
-                <a href="#" class="head__menu__container__logo">Mart</a>
-                
-                <ul class="head__menu__links clearfix">
-                
-                    <li>
-                        <a href="#" class="head__menu__item">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="head__menu__item">About us</a>
-                    </li>   
-                    
-                    <li>
-                        <a href="#" class="head__menu__item">Page</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="head__menu__item">Shop</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#" class="head__menu__item">Blog</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="head__menu__item">Contact us</a>
-                    </li>
-
-                </ul>
-                
-            </nav>    
-        </div>
-    </header>
-    <!-- HEADER WRAPPER END class="content-wrapper clearfix"-->
-
-    <main class="main-content">
-
-        <!-- SLIDER START -->
-        <section class="container-slider">
-            
-            <div class="slider__overlay">
-                <img class="slider__img" src="./img/slider.png" alt="AFFORDABLE PARIS TOURS picture" width="1600" height="600" >
-            </div>  
-                
-            <div class="slider__content">
-                <h2 class="slider__text__1"> AFFORDABLE PARIS TOURS</h2>
-                <h3 class="slider__text__2">CITY TOURS / TOUR TICKETS / TOUR GUIDES</h3>
-
-                <a class="slider__arrow slider__arrow__left" href="#"> 
-                    <span class="pe-7s-angle-left slider__arrow_text"></span>
-                </a>
-
-                <a class="slider__arrow slider__arrow__right" href="#">
-                    <span class="pe-7s-angle-right slider__arrow_text"></span>
-                </a>
-            </div>
-        </section>
-        <!-- SLIDER END -->
-
-        <section class="content-new-products container">
-            <!-- CATEGORY TITLE START -->    
-            <header class="title__content">
-                <h1 class="title__name">New products</h1>
-            </header>
-            <!-- CATEGORY TITLE END -->    
-
-            
-            <!-- PRODUCTS LIST START  -->
-
-            <ul class="list__type clearfix"> 
-
-                <li class="content__item">
-                    
-                    <div class="content__item__image">
-                        <div class="shopping__navigate__overlay">
-                            
-                            <div class="shopping__navigate__container">
-                            
-                                <div class="shopping__navigate__button-container clearfix">
-                                <button class="shopping__navigate__button__small button__heart">
-                                    <span class="pe-7s-like"> </span>
-                                </button>
-        
-                                <button class="shopping__navigate__button__small button__sort">
-                                   <span class="pe-7s-shuffle"></span>
-                                </button>
-                                
-                                <button class="shopping__navigate__button__small button__clock">
-                                    <span class="pe-7s-clock"></span>
-                                </button> 
-        
-                                <button class="shopping__navigate__button__big button__cart">
-                                   <span class="shopping__navigate__button_icon pe-7s-cart"> </span>
-                                    <span class="shopping__navigate__button_text">add to cart</span> 
-                                </button>
-                                </div>
-                                                           
-                            </div>                        
-                        </div>
-                        <img class="content__image" src="img/blue-tshirt.png" alt="product1" width="255" height="282">
-                    </div>
-                    
-                    <div class="content__item__descr">
-                        <a class="content__text" href="#"> Blue Tshirt </a>
-                        <span class="item-price">$56</span>
-                    </div>
-                    
+    <header class="page-header">
+        <nav class="container header-content">
+            <a href="#" class="page-logo">MoGo</a>
+            <ul class="header-content__navigation">
+                <li class="header-content__items">
+                    <a href="#" class="header-content__items__links">About</a>
                 </li>
-
-                <li class="content__item">
-                    
-                    <div class="content__item__image">
-                        <div class="shopping__navigate__overlay">
-                            
-                            <div class="shopping__navigate__container">
-                            
-                                <div class="shopping__navigate__button-container clearfix">
-                                <button class="shopping__navigate__button__small button__heart">
-                                    <span class="pe-7s-like"> </span>
-                                </button>
-        
-                                <button class="shopping__navigate__button__small button__sort">
-                                   <span class="pe-7s-shuffle"></span>
-                                </button>
-                                
-                                <button class="shopping__navigate__button__small button__clock">
-                                    <span class="pe-7s-clock"></span>
-                                </button> 
-        
-                                <button class="shopping__navigate__button__big button__cart">
-                                   <span class="shopping__navigate__button_icon pe-7s-cart"> </span>
-                                    <span class="shopping__navigate__button_text">add to cart</span> 
-                                </button>
-                                </div>
-                                                           
-                            </div>                         
-                        </div>
-                        <img class="content__image" src="img/woman_shirt.png" alt="product2" width="255" height="282">
-                    </div>
-
-                    <div class="content__item__descr">
-                        <a class="content__text" href="#"> WOMAN shirt </a>
-                        <span class="item-price">$31</span>
-                    </div>
-                </li>
-
-                <li class="content__item">
-                    <div class="content__item__image">
-                        <div class="shopping__navigate__overlay">
-                            
-                            <div class="shopping__navigate__container">
-                            
-                                <div class="shopping__navigate__button-container clearfix">
-                                <button class="shopping__navigate__button__small button__heart">
-                                    <span class="pe-7s-like"> </span>
-                                </button>
-        
-                                <button class="shopping__navigate__button__small button__sort">
-                                   <span class="pe-7s-shuffle"></span>
-                                </button>
-                                
-                                <button class="shopping__navigate__button__small button__clock">
-                                    <span class="pe-7s-clock"></span>
-                                </button> 
-        
-                                <button class="shopping__navigate__button__big button__cart">
-                                   <span class="shopping__navigate__button_icon pe-7s-cart"> </span>
-                                    <span class="shopping__navigate__button_text">add to cart</span> 
-                                </button>
-                                </div>
-                                                           
-                            </div>                         
-                        </div>
-                        <img class="content__image" src="img/yellow_tshirt.png" alt="product3" width="255" height="282">
-                    </div>
-                    
-                    
-                    <a class="content__image__link" href="#">    
-                    </a>
-                    
-                    <div class="content__item__descr">
-                        <a class="content__text" href="#"> Yellow Tshirt </a>
-                        <span class="item-price">$21</span>
-                    </div>
-                </li>
-
-                <li class="content__item">
-                    <div class="content__item__image">
-                        <div class="shopping__navigate__overlay">
-                            
-                            <div class="shopping__navigate__container">
-                            
-                                <div class="shopping__navigate__button-container clearfix">
-                                <button class="shopping__navigate__button__small button__heart">
-                                    <span class="pe-7s-like"> </span>
-                                </button>
-        
-                                <button class="shopping__navigate__button__small button__sort">
-                                   <span class="pe-7s-shuffle"></span>
-                                </button>
-                                
-                                <button class="shopping__navigate__button__small button__clock">
-                                    <span class="pe-7s-clock"></span>
-                                </button> 
-        
-                                <button class="shopping__navigate__button__big button__cart">
-                                   <span class="shopping__navigate__button_icon pe-7s-cart"> </span>
-                                    <span class="shopping__navigate__button_text">add to cart</span> 
-                                </button>
-                                </div>
-                                                           
-                            </div>                         
-                        </div>
-                        <img class="content__image" src="img/cool_lingerie.png" alt="product1" width="255" height="282">
-                    </div>
-
-                    <div class="content__item__descr">
-                        <a class="content__text" href="#"> Cool lingerie </a>
-                        <span class="item-price">$21</span>
-                    </div>
-                </li>
-    
+                <li class="header-content__items">
+                    <a href="#" class="header-content__items__links">Service</a></li>
+                <li class="header-content__items">
+                    <a href="#" class="header-content__items__links">Work</a></li>
+                <li class="header-content__items">
+                    <a href="#" class="header-content__items__links">Blog</a></li>
+                <li class="header-content__items">
+                    <a href="#" class="header-content__items__links">Contact</a></li>
+             
             </ul>
+        </nav>
 
+    </header>
+
+    <main class="main-part">
+       
+        <section class="Products-overview container">    
+            <header>
+                <h1 class="main-content__header">
+                    <span class="main-content__h1-1">  We work with </span>
+                    <!-- <br> -->
+                    <span class="main-content__h1-2">amazing services</span>
+                </h1>
+            </header>
+            <!-- ::after -->
+
+            <ul class="main-content__items-container">
+
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/clock.png" alt="clock">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">Photography</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/wave.png" alt="wave">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">Web Design</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/monitor.png" alt="monitor">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">Creativity</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/book.png" alt="book">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">SEO</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/house.png" alt="house">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">Css/Html</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+
+                <li class="main-content__items-container__item">
+                    <div class="main-content__items-container__item__logo">
+                        <img src=".//img/digital.png" alt="digital">
+                    </div>
+                    <div class="main-content__items-container__item__text">
+                        <h2 class="main-content__items-container__item__text-1">Css/Html</h2>
+                        <p class="main-content__items-container__item__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </li>
+            </ul>
         </section>
 
-        <!-- PRODUCTS LIST END   -->
+        <section class="Our-team container">    
+        
+            <header>
+                <h1 class="main-content__header">
+                    <span class="main-content__h1-1">  Who we are </span>
+                    <!-- <br> -->
+                    <span class="main-content__h1-2">Meet our team</span>
+                </h1>
+                <p class="main-content__our-team-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <!-- ::after -->
+            </header>         
+            
+            <ul class="main-content__our-team-list">
+                
+                <li class="main-content__our-team-list__item">
+                    <div class="main-content__our-team-list__item__logo">
+                        <div class="main-content__our-team-list__item__logo__overlay">
+                            <div class="main-content__our-team-list__item__logo__overlay__btns-cntr">
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/facebook.svg" alt="facebook">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/twitter.svg" alt="twitter">
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/pinterest.svg" alt="pinterest">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/instagram.svg" alt="instagram">    
+                                </button>
+                            </div>    
+                        </div>
+                        <img src="./img/dix.png" alt="dix" class="main-content__our-team-list__item__img" width="380" height="470">
+                    </div>
+                    <h3 class="main-content__our-team-list__item__header"> Matthew Dix</h3>
+                    <p class="main-content__our-team-list__item__text">Graphic Design</p>
+                </li>
+                
+                <li class="main-content__our-team-list__item">
+                    <div class="main-content__our-team-list__item__logo">
+                        <div class="main-content__our-team-list__item__logo__overlay">
+                            <div class="main-content__our-team-list__item__logo__overlay__btns-cntr">
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/facebook.svg" alt="facebook">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/twitter.svg" alt="twitter">
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/pinterest.svg" alt="pinterest">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/instagram.svg" alt="instagram">    
+                                </button>
+                            </div>    
+                        </div>
+                    
+                        <img src="./img/cambell.png" alt="cambell" class="main-content__our-team-list__item__img" width="380" height="470">
+                    </div>
+                    <h3 class="main-content__our-team-list__item__header"> Christopher Campbell</h3>
+                    <p class="main-content__our-team-list__item__text">Branding/UX design</p>
+                </li>
+                
+                <li class="main-content__our-team-list__item">
+                    <div class="main-content__our-team-list__item__logo">
+                        <div class="main-content__our-team-list__item__logo__overlay">
+                            <div class="main-content__our-team-list__item__logo__overlay__btns-cntr">
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/facebook.svg" alt="facebook">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                    <img src="./img/social/twitter.svg" alt="twitter">
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/pinterest.svg" alt="pinterest">    
+                                </button>
+                                <button class="main-content__our-team-list__item__logo__overlay__btns-cntr__btn">
+                                     <img src="./img/social/instagram.svg" alt="instagram">    
+                                </button>
+                            </div>    
+                        </div>
+                    
+                    <img src="./img/fertig.png" alt="fertig" class="main-content__our-team-list__item__img" width="380" height="470">
+                    </div>
+                    
+                    <h3 class="main-content__our-team-list__item__header"> Michael Fertig </h3>
+                    <p class="main-content__our-team-list__item__text">Developer</p>
+                </li>
 
-
+            </ul>
+        </section>
+       
     </main>
 
-    <footer class="container__footer">
-        <div class="footer__text">All Rights Reserved &#169; Dokan | Designed <span class="footer__text_colored">ThemenGraph</span> </div>
+    <footer class="footer">
+        <div class="container footer-content">
+            <!-- <header class="horizontal-line"></header> -->
+            <!-- <hr color="black" width="100%" size="1px"> <br> -->
+            <p class="footer-content__author">&copy; 2016 MoGo free PSD template by <span class="footer-content__author-dec"> Laaqiq</span></p>
+            
+            <form class="footer-content__form-container" action="#">
+                <input class="footer-content__input-container" style="display: inline-block;" type="text" placeholder="Your Email..." name="name" required>
+                <input class="footer-content__btn" type="submit" value="Subscribe">
+            </form>
+
+        </div>
 
     </footer>
 
-
 </body>
-
 </html>
